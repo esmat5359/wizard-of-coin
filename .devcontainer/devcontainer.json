@@ -1,0 +1,10 @@
+{
+  "name": "wizard-of-coin",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "secrets": {
+    "ANTHROPIC_API_KEY": {
+      "description": "API key used by wizard_redteam.py (--backend anthropic)"
+    }
+  }
+}
