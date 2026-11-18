@@ -5,6 +5,12 @@
   "secrets": {
     "ANTHROPIC_API_KEY": {
       "description": "API key used by wizard_redteam.py (--backend anthropic)"
+    },
+    "PRIVATE_KEY": {
+      "description": "Optional: signer key for wizard_redteam.py --backend genlayer. Omit to auto-generate a throwaway account instead."
+    },
+    "CONTRACT_ADDRESS": {
+      "description": "Optional: deployed WizardOfCoin address for wizard_redteam.py --backend genlayer"
     }
   }
 }
