@@ -1,0 +1,3 @@
+anthropic>=0.40
+# optional, only for --backend openai (or any OpenAI-compatible server)
+# openai>=1.0
